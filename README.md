@@ -18,9 +18,11 @@
 4. 按`Shift ⇧+回车` 直接发音
 5. 选中文字 双击`Option ⌥`进行翻译
 
-### 功能
+### 说明
 
 感谢[https://github.com/liszd/whyliam.workflows.youdao]
+感谢[https://github.com/ianva/vim-youdao-translater]
+本插件的区别是不需要有道的key和keyfrom，直接通过web端截取结果，即使2017年底有道原有API下线应该也不受影响。
 
 ---
 
