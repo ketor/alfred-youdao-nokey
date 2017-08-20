@@ -67,7 +67,6 @@ def get_word_info(word):
     try:
         url = 'http://dict.youdao.com' + '/fsearch?q=' + urllib.quote(str(word))
         r = web.get(url)
-        sys.stderr.write(r.content+'\n')
     except IOError:
         return NETWORK_ERROR
     if r.status_code == 200:
@@ -102,7 +101,6 @@ def get_word_info(word):
             try:
                 url = "http://fanyi.youdao.com" + "/translate?i=" + urllib.quote(str(word))
                 r = web.get(url)
-                sys.stderr.write(r.content+'\n')
             except IOError:
                 return NETWORK_ERROR
 
